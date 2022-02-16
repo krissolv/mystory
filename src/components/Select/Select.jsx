@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import '../main.scss';
+import '../../main.scss';
 
 /**
  * Super UI component for user interaction

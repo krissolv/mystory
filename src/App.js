@@ -1,5 +1,5 @@
-import './stories/main.scss';
-import {Button, ColorPicker} from "./stories";
+import './main.scss';
+import {Button, ColorPicker} from "./components";
 
 function App() {
 

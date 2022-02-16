@@ -1,4 +1,4 @@
-import '../src/stories/main.css';
+import '../src/main.css';
 import './preview.css';
 
 export const parameters = {

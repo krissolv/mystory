@@ -1,5 +1,5 @@
 import React from "react";
-import { ColorOption } from "./ColorOption";
+import { ColorOption } from "../components/ColorOption/ColorOption";
 
 export default {
     title: 'Color Option',

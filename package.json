@@ -1,6 +1,6 @@
 {
   "name": "mystory",
-  "version": "0.1.30",
+  "version": "0.2.02",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel package.json src/index.js src/components src/main.css --out-dir dist --copy-files",
+    "build": "rm -rf dist && NODE_ENV=production babel package.json README.md src/index.js src/components src/main.css --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",

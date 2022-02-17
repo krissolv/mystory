@@ -1,11 +1,11 @@
 {
   "name": "mystory",
-  "version": "0.2.06",
+  "version": "0.2.08",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
-    "dist/*",
+    "dist",
     "README.md"
   ],
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel --ignore src/stories README.md src --out-dir dist --copy-files --no-copy-ignored",
+    "build": "rm -rf dist && NODE_ENV=production babel README.md src/components --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",

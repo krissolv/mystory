@@ -2,6 +2,13 @@ name: Publish Package to npmjs
 on:
   push:
 jobs:
+  dist:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - name: build dist
+        - run: npm install
+        - run: npm run build
   build:
     runs-on: ubuntu-latest
     steps:

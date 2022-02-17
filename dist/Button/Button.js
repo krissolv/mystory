@@ -42,7 +42,7 @@ const Button = _ref => {
     style: backgroundColor && {
       backgroundColor
     }
-  }, props), label);
+  }, props), label, " label");
 };
 
 exports.Button = Button;

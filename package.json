@@ -4,10 +4,6 @@
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": [
-    "dist",
-    "README.md"
-  ],
   "dependencies": {
     "@babel/cli": "^7.17.3",
     "@babel/core": "^7.17.4",

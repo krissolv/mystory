@@ -12,7 +12,7 @@ export const ColorOption = ({color, title, selected, ...props}) => {
     return (
         <div className={["color-option", mode].join(" ")} {...props} onClick={() => props.onSelect(color)}>
             <div className="color-option__color" style={{backgroundColor: color}} />
-            <div className="color-option__title">{title}</div>
+            <div className="color-option__title">Color: {title}</div>
         </div>
     )
 

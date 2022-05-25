@@ -1,6 +1,6 @@
 {
   "name": "mystory",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -9,10 +9,10 @@
     "README.md"
   ],
   "dependencies": {
-    "@babel/cli": "^7.17.3",
-    "@babel/core": "^7.17.4",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-react": "^7.16.7"
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -53,29 +53,29 @@
   },
   "devDependencies": {
     "@babel/polyfill": "^7.12.1",
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.2",
+    "@storybook/addon-actions": "^6.5.5",
+    "@storybook/addon-essentials": "^6.5.5",
+    "@storybook/addon-links": "^6.5.5",
+    "@storybook/builder-webpack5": "^6.5.5",
+    "@storybook/manager-webpack5": "^6.5.5",
+    "@storybook/node-logger": "^6.5.5",
+    "@storybook/preset-create-react-app": "^4.1.1",
+    "@storybook/react": "^6.5.5",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.4.0",
-    "@types/node": "^17.0.18",
-    "@types/react": "^17.0.39",
-    "@types/react-dom": "^17.0.11",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^17.0.35",
+    "@types/react": "^17.0.45",
+    "@types/react-dom": "^17.0.17",
+    "autoprefixer": "^10.4.7",
     "foundation-sites": "^6.7.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "sass": "^1.49.7",
-    "typescript": "^4.5.5",
+    "sass": "^1.52.1",
+    "typescript": "^4.7.2",
     "web-vitals": "^2.1.4",
-    "@storybook/addon-actions": "^6.4.18",
-    "@storybook/addon-essentials": "^6.4.18",
-    "@storybook/addon-links": "^6.4.18",
-    "@storybook/builder-webpack5": "^6.4.18",
-    "@storybook/manager-webpack5": "^6.4.18",
-    "@storybook/node-logger": "^6.4.18",
-    "@storybook/preset-create-react-app": "^4.0.0",
-    "@storybook/react": "^6.4.18",
-    "autoprefixer": "^10.4.2",
-    "webpack": "^5.68.0"
+    "webpack": "^5.72.1"
   }
 }

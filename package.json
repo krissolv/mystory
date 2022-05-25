@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel README.md src/components src/main.css --out-dir dist --copy-files",
+    "build": "rm -rf dist && NODE_ENV=production babel README.md src/components src/main.css --out-dir dist --copy-files && build-storybook",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",

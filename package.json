@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build": "npm run sass-compile && npm run build-dist && npm --no-git-tag-version version patch",
+    "build": "npm run sass-compile && npm run build-dist && npm run build-storybook && npm --no-git-tag-version version patch",
     "build-dist": "rm -rf dist && NODE_ENV=production babel README.md src/components src/main.css --out-dir dist --copy-files",
     "build-storybook": "build-storybook",
     "sass-compile": "sass --no-source-map src/main.scss src/main.css"

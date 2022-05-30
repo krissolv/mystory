@@ -1,6 +1,6 @@
 {
   "name": "mystory",
-  "version": "0.3.3",
+  "version": "0.3.2",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build": "npm run sass-compile && npm run build-dist && npm run build-storybook && npm --no-git-tag-version version patch",
-    "build-dist": "rm -rf ./dist && babel ./README.md ./src/components ./src/main.css --out-dir ./dist",
+    "build-dist": "rm -rf dist && mkdir dist && cp -a README.md src/main.css src/components/. dist",
     "build-storybook": "build-storybook",
     "sass-compile": "sass --no-source-map src/main.scss src/main.css"
   },
